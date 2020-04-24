@@ -281,6 +281,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ueventd.mtk.rc
 
+# RRO
+PRODUCT_PACKAGES += \
+    WifiOverlayMT6768
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.samsung-multihal \
