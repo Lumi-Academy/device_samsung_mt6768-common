@@ -27,8 +27,8 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 30 31
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0.vendor \
     android.hardware.audio.service \
-    android.hardware.audio@7.0-impl:32 \
-    android.hardware.audio.effect@7.0-impl:32 \
+    android.hardware.audio@7.0-impl.mt6768 \
+    android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.common@7.0-util \
     android.hardware.audio@7.0-util \
     android.hardware.soundtrigger@2.3.vendor
