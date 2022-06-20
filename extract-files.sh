@@ -73,4 +73,12 @@ if [ -z "${ONLY_COMMON}" ] && [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt
     extract "${MY_DIR}/../${DEVICE}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+        vendor/lib64/libsec-ril.so)
+            sed -i 's/ril.dds.call.slotid/vendor.calls.slotid/g' "${2}"
+            ;;
+    esac
+}
+
 "${MY_DIR}/setup-makefiles.sh"
