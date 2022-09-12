@@ -61,5 +61,8 @@ BOARD_MKBOOTIMG_ARGS := \
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Inherit from the proprietary version
 include vendor/samsung/mt6768-common/BoardConfigVendor.mk
