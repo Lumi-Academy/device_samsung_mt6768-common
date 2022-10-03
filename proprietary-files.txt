@@ -70,7 +70,6 @@ vendor/lib/lib_speech_enh.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 -vendor/lib/soundfx/libaudioeffectoffload.so
--vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 -vendor/lib/soundfx/libaudiosaplus_sec.so
 -vendor/lib/soundfx/libmyspace.so
 vendor/lib64/libaudiocompensationfilterc.so
@@ -99,7 +98,6 @@ vendor/lib64/lib_speech_enh.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 -vendor/lib64/soundfx/libaudioeffectoffload.so
--vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 -vendor/lib64/soundfx/libaudiosaplus_sec.so
 -vendor/lib64/soundfx/libmyspace.so
 
