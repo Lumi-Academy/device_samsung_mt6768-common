@@ -58,6 +58,11 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service \
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor \
+    android.hardware.drm@1.4-service.clearkey
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
