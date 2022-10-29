@@ -168,12 +168,6 @@ prebuilt_etc {
 
 // fstab
 prebuilt_etc {
-    name: "fstab.enableswap",
-    src: "etc/fstab.enableswap",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "fstab.mt6768",
     src: "etc/fstab.mt6768",
     vendor: true,
@@ -182,11 +176,5 @@ prebuilt_etc {
 prebuilt_etc {
     name: "fstab.mt6769t",
     src: "etc/fstab.mt6769t",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "fstab.ramplus",
-    src: "etc/fstab.ramplus",
     vendor: true,
 }
