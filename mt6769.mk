@@ -243,5 +243,9 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.3.vendor
+
 # Inherit from vendor if exists
 $(call inherit-product-if-exists, vendor/samsung/mt6769-common/mt6769-common-vendor.mk)
