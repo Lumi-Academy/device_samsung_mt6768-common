@@ -43,6 +43,13 @@ PRODUCT_PACKAGES += \
     libalsautils \
     libnbaio_mono
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.a2dp@1.0 \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth.a2dp@1.0.vendor
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
