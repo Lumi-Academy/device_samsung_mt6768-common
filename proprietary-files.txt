@@ -581,7 +581,6 @@ vendor/firmware/lib3a.ccu
 vendor/firmware/mt6631_fm_channel_param.dat
 vendor/firmware/mt6631_fm_v1_coeff.bin
 vendor/firmware/mt6631_fm_v1_patch.bin
-vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 vendor/firmware/remoteproc_scp
 vendor/firmware/soc1_0_patch_mcu_1a_1_hdr.bin
 vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin
@@ -834,20 +833,6 @@ vendor/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
-
-# NFC
-vendor/bin/hw/sec.android.hardware.nfc@1.2-service
-vendor/etc/init/init.nfc.samsung.rc
-vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
-vendor/etc/libnfc-sec-vendor.conf
-vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
-vendor/etc/nfc/sec_s3nrn4v_swreg.bin
-vendor/etc/permissions/com.nxp.mifare.xml
--vendor/etc/vintf/manifest/sec.android.hardware.nfc@1.2-service.xml
-vendor/lib/libnxp_extamp_intf.so
-vendor/lib64/libnxp_extamp_intf.so
-vendor/lib64/nfc_nci_sec.so
-vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron
