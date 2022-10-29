@@ -18,6 +18,31 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 # Extra VNDK Versions
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@6.0.vendor \
+    android.hardware.audio.service \
+    android.hardware.audio@6.0-impl:32 \
+    android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.audio.common@6.0-util \
+    android.hardware.audio@6.0-util \
+    android.hardware.soundtrigger@2.3.vendor 
+
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    audio_policy.stub
+
+PRODUCT_PACKAGES += \
+    libaudiofoundation.vendor \
+    libaudiopreprocessing \
+    libbundlewrapper \
+    libtinycompress \
+    libtinyxml \
+    libalsautils \
+    libnbaio_mono
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
