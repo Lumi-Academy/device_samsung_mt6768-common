@@ -172,6 +172,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ueventd.mtk.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-service.multihal \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
