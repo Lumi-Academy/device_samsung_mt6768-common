@@ -360,8 +360,6 @@ vendor/etc/audio_param/VOW_ParamUnitDesc.xml
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
-vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
-vendor/etc/bluetooth_offload_audio_policy_configuration.xml
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
@@ -681,8 +679,6 @@ vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc
-vendor/etc/media_codecs_mediatek_audio.xml
-vendor/etc/media_codecs_mediatek_video.xml
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
@@ -878,10 +874,6 @@ vendor/lib64/vendor.samsung.hardware.radio@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio@2.2.so
 
-# Radio-IMS
--app/ImsSettings/ImsSettings.apk
--app/ImsSettings/ImsSettings.apk.prof
-
 # Samsung
 vendor/bin/hw/samsung.software.media.c2@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service
@@ -1049,7 +1041,6 @@ vendor/lib64/hw/vibrator.mt6768.so
 vendor/lib64/libvibrator.so
 
 # Misc
-system_ext/apex/com.android.vndk.v30.apex
 system_ext/bin/emdlogger1
 system_ext/bin/emdlogger2
 system_ext/bin/emdlogger3
@@ -1066,7 +1057,6 @@ system_ext/etc/audio_policy_engine_default_stream_volumes.xml
 system_ext/etc/audio_policy_engine_product_strategies.xml
 system_ext/etc/audio_policy_engine_stream_volumes.xml
 system_ext/etc/audio_policy_volumes.xml
-system_ext/etc/build.prop
 system_ext/etc/custom.conf
 system_ext/etc/default_volume_tables.xml
 system_ext/etc/emdlogger_usb_config.prop
@@ -1309,7 +1299,6 @@ vendor/bin/wmt_loader
 vendor/bin/wvkprov
 vendor/bin/[
 vendor/etc/.tp/.ht120.mtc
-vendor/etc/a2dpsink_audio_policy_configuration.xml
 vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/aee-commit
 vendor/etc/aee-config
@@ -1335,17 +1324,12 @@ vendor/etc/ecc_list_preference.xml
 vendor/etc/factory.ini
 vendor/etc/floating_feature.xml
 vendor/etc/frc_forced_params.ini
-vendor/etc/fstab.enableswap
-vendor/etc/fstab.mt6768
-vendor/etc/fstab.mt6769t
-vendor/etc/fstab.ramplus
 vendor/etc/fstb.cfg
 vendor/etc/gnss/agps_profiles_conf2.xml
 vendor/etc/gnss/ca.pem
 vendor/etc/gnss/deleteLogCommands
 vendor/etc/gnss/mnl.prop
 vendor/etc/gnss/MNL_Config.xml
-vendor/etc/hearing_aid_audio_policy_configuration.xml
 vendor/etc/hqm_device.xml
 vendor/etc/hyper/config_chipset.json
 vendor/etc/hyper/config_hyper_permission.json
@@ -1571,10 +1555,8 @@ vendor/etc/special_pws_channel.xml
 vendor/etc/str/str_preference_data.dat
 vendor/etc/task_profiles.json
 vendor/etc/throttle.sh
-vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/traceconfig.txt
 vendor/etc/ueventd.rc
-vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/VideoLog_dynamic.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
@@ -2142,17 +2124,11 @@ vendor/lib64/unihal_main@2.1.so
 vendor/lib64/unihal_uniplugin@1.0.so
 vendor/lib64/vintf-codecsolution-V2-ndk_platform.so
 vendor/lib64/VP9SecureVdecCA.so
-vendor/odm
-vendor/odm_dlkm/etc/build.prop
-vendor/odm_dlkm/etc/NOTICE.xml.gz
-vendor/recovery-from-boot.p
 vendor/res/images/lcd_test_00.png
 vendor/res/images/lcd_test_01.png
 vendor/res/images/lcd_test_02.png
 vendor/res/sound/ringtone.wav
 vendor/res/sound/testpattern1.wav
-vendor/ro.prop
-vendor/rw.prop
 vendor/saiv/image_understanding/db/aig_classifier/aig_classifier_cnn.tf
 vendor/saiv/image_understanding/db/aig_detector/aig_detector_cnn.tflite
 vendor/saiv/image_understanding/db/srr_interaction/srr_interaction_cnn.tf
