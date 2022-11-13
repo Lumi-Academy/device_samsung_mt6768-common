@@ -584,7 +584,7 @@
         <fqname>@3.1::ISehSupplicant/default</fqname>
     </hal>
     <sepolicy>
-        <version>31.0</version>
+        <version>32.0</version>
     </sepolicy>
     <kernel target-level="5"/>
 </manifest>

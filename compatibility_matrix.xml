@@ -32,9 +32,9 @@
         <version>1.0</version>
     </hal>
     <vendor-ndk>
-        <version>31</version>
+        <version>32</version>
     </vendor-ndk>
     <system-sdk>
-        <version>31</version>
+        <version>32</version>
     </system-sdk>
 </compatibility-matrix>
