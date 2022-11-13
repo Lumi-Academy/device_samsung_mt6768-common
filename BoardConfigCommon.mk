@@ -70,10 +70,10 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_FORCE_PREBUILT_KERNEL := true
 
 # Manifests and SKU
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
-DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 ODM_MANIFEST_SKUS += nfc
-ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/sec.android.hardware.nfc@1.2-service.xml
+ODM_MANIFEST_NFC_FILES := $(COMMON_PATH)/sec.android.hardware.nfc@1.2-service.xml
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
