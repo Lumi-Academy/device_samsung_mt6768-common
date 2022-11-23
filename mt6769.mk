@@ -80,6 +80,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth.a2dp@1.0.vendor
 
+# CAS
+PRODUCT_PACKAGES += \
+    android.hardware.cas@1.2-service
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
