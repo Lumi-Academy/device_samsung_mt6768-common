@@ -513,36 +513,6 @@
         <fqname>@2.0::ISehChannel/imsd</fqname>
         <fqname>@2.0::ISehChannel/imsd2</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.samsung.hardware.security.drk</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ISehDrk</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::ISehDrk/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.samsung.hardware.security.skpm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehSkpm</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehSkpm/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.security.widevine.keyprov</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehWidevineKeyProvisioning</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehWidevineKeyProvisioning/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.snap</name>
         <transport>hwbinder</transport>
@@ -552,36 +522,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.2::ISehSnap/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.sysinput</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ISehSysInputDev</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.2::ISehSysInputDev/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.tlc.payment</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehTlcPayment</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehTlcPayment/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.wifi.supplicant</name>
-        <transport>hwbinder</transport>
-        <version>3.1</version>
-        <interface>
-            <name>ISehSupplicant</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@3.1::ISehSupplicant/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.lineage.touch</name>
@@ -613,8 +553,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <sepolicy>
-        <version>32.0</version>
-    </sepolicy>
-    <kernel target-level="5"/>
 </manifest>
