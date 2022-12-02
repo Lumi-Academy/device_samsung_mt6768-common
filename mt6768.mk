@@ -163,6 +163,11 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
 
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail_vendor \
+    libavservices_minijail.vendor
+
 # Libxml2
 PRODUCT_PACKAGES += \
     libxml2.vendor
