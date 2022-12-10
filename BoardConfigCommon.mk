@@ -110,8 +110,8 @@ TARGET_COPY_OUT_PRODUCT := product
 # Sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
-BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+#include device/samsung/buer_vndr/mediatek.mk
 
 # Inherit from the proprietary version
 include vendor/samsung/mt6768-common/BoardConfigVendor.mk
