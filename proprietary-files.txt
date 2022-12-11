@@ -764,9 +764,11 @@ vendor/etc/init/init.gps.rc
 vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/gnss/agps_profiles_conf2.xml
+vendor/lib/hw/gps.default.so
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/lib/libipsec_ims_shr.so
+vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libDR.so
