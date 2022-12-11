@@ -721,19 +721,6 @@ vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
 
-# Emdlogger
-system_ext/bin/emdlogger1
-system_ext/bin/emdlogger2
-system_ext/bin/emdlogger3
-system_ext/bin/emdlogger5
-system_ext/bin/mdlogger
-system_ext/etc/emdlogger_usb_config.prop
-system_ext/etc/init/emdlogger1.rc
-system_ext/etc/init/emdlogger2.rc
-system_ext/etc/init/emdlogger3.rc
-system_ext/etc/init/emdlogger5.rc
-system_ext/etc/init/mdlogger.rc
-
 # Engineering
 vendor/bin/mrdump_tool
 vendor/etc/init/bootperf.rc
@@ -1316,8 +1303,6 @@ vendor/bin/testgameserver
 vendor/bin/test_model.json
 vendor/bin/wvkprov
 vendor/etc/AbnormalDisplayLog_dynamic.xml
-vendor/etc/aee-commit
-vendor/etc/aee-config
 vendor/etc/armnn_app.config
 vendor/etc/AudioLog_dynamic.xml
 vendor/etc/aurisys_config.xml
@@ -1328,8 +1313,6 @@ vendor/etc/dpolicy
 vendor/etc/factory.ini
 vendor/etc/frc_forced_params.ini
 vendor/etc/hqm_device.xml
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/init/chipinfo_init.rc
 vendor/etc/init/dmc_core.rc
