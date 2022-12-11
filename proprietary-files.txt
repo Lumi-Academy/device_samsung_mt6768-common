@@ -1172,11 +1172,7 @@ vendor/lib64/libiwt.so
 # Thermal
 vendor/bin/thermal_manager
 vendor/etc/init/init.thermal_manager.rc
-vendor/lib/hw/thermal_hal.so
-vendor/lib/hw/thermal.mt6768.so
 vendor/lib/libmtcloader.so
-vendor/lib64/hw/thermal_hal.so
-vendor/lib64/hw/thermal.mt6768.so
 vendor/lib64/libmtcloader.so
 
 # Thermal - Configs
