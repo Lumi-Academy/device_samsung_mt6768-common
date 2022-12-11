@@ -332,10 +332,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3.vendor
-
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
