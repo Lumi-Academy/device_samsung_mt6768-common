@@ -87,6 +87,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0.vendor \
     libbt-vendor:64
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.5-service_64
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service
@@ -146,6 +150,10 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor
+
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.samsung
 
 # Neutral Networks
 PRODUCT_PACKAGES += \
