@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.5-service_64
+    android.hardware.camera.provider@2.5-service_64.mt6768
 
 # CAS
 PRODUCT_PACKAGES += \
