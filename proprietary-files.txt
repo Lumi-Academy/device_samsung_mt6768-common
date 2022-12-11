@@ -1200,10 +1200,6 @@ vendor/lib/libTEECommon.so
 vendor/lib64/libMcClient.so
 vendor/lib64/libTEECommon.so
 
-# Vibrator
-vendor/lib/hw/vibrator.mt6768.so
-vendor/lib64/hw/vibrator.mt6768.so
-
 # VoLTE
 vendor/bin/rcs_volte_stack
 vendor/bin/volte_clientapi_ua
