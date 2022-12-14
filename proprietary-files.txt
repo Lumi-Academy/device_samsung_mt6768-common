@@ -730,28 +730,20 @@ vendor/lib/libfidoauthnr_v2.so
 vendor/lib64/libfidoauthnr_v2.so
 
 # Fingerprint
-vendor/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service
-vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/etc/init/fingerprint_common.rc
 vendor/etc/init/init.fingerprint.rc
-vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc
-vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
--vendor/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
 vendor/lib/libegis_fp_normal_sensor_test.so
 vendor/lib/libgf_in_system_lib.so
 vendor/lib/libqfp_sensortest.so
 vendor/lib/libsynaFpSensorTestNwd.so
-vendor/lib/vendor.samsung.hardware.biometrics.face@2.0.so
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 vendor/lib64/libegis_fp_normal_sensor_test.so
 vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
-vendor/lib64/vendor.samsung.hardware.biometrics.face@2.0.so
-vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
 
 # GPS
 vendor/bin/ipsec_mon
