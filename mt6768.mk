@@ -283,6 +283,7 @@ PRODUCT_PACKAGES += \
 
 # RRO
 PRODUCT_PACKAGES += \
+    SettingsOverlayMT6768 \
     WifiOverlayMT6768
 
 # Sensors
