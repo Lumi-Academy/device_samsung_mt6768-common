@@ -263,29 +263,12 @@ PRODUCT_PACKAGES += \
     init.insmod.sh
 
 PRODUCT_PACKAGES += \
-    factory_init.connectivity.rc \
-    factory_init.connectivity.common.rc \
-    factory_init.project.rc \
-    factory_init.rc
-
-PRODUCT_PACKAGES += \
     fstab.mt6768 \
     fstab.mt6769t \
     fstab.ramdisk
 
 PRODUCT_PACKAGES += \
-    meta_init.rc \
-    meta_init.connectivity.rc \
-    meta_init.connectivity.common.rc \
-    meta_init.modem.rc \
-    meta_init.project.rc \
-    multi_init.rc
-
-PRODUCT_PACKAGES += \
-    init.aee.rc \
     init.ago.rc \
-    init.connectivity.common.rc \
-    init_connectivity.rc \
     init.cgroup.rc \
     init.modem.rc \
     init.mt6768.rc \
