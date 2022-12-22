@@ -20,13 +20,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mt6769t.rc",
-    src: "etc/init.mt6769t.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "factory_init.connectivity.common.rc",
     src: "etc/factory_init.connectivity.common.rc",
     sub_dir: "init/hw",
