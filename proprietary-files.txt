@@ -663,10 +663,33 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 
 # Camera - Samsung
+vendor/lib/libBeauty_v4.camera.samsung.so
+vendor/lib/libDualCamBokehCapture.camera.samsung.so
+vendor/lib/libdualcam_refocus_image.so
+vendor/lib/libFacePreProcessing.camera.samsung.so
+vendor/lib/libFace_Landmark_API.camera.samsung.so
+vendor/lib/libHandGesture.camera.samsung.so
+vendor/lib/libHprFace_GAE_api.camera.samsung.so
+vendor/lib/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so
+vendor/lib/libLocalTM_capture_core.camera.samsung.so
+vendor/lib/libLocalTM_wrapper.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libSEF.quram.so
 -vendor/lib/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 -vendor/lib/vendor.samsung.hardware.thermal@1.0.so
+vendor/lib64/libBeauty_v4.camera.samsung.so
+vendor/lib64/libDualCamBokehCapture.camera.samsung.so
+vendor/lib64/libdualcam_refocus_image.so
+vendor/lib64/libdualcam_refocus_video.so
+vendor/lib64/libDLInterface.camera.samsung.so
+vendor/lib64/libFacePreProcessing.camera.samsung.so
+vendor/lib64/libFace_Landmark_API.camera.samsung.so
+vendor/lib64/libhal.wsm.samsung.so
+vendor/lib64/libHandGesture.camera.samsung.so
+vendor/lib64/libHprFace_GAE_api.camera.samsung.so
+vendor/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so
+vendor/lib64/libLocalTM_capture_core.camera.samsung.so
+vendor/lib64/libLocalTM_wrapper.camera.samsung.so
 vendor/lib64/libOpenCv.camera.samsung.so
 vendor/lib64/libseccam_util.so
 vendor/lib64/libSEF.quram.so
