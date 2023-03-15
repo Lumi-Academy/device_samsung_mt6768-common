@@ -1,32 +1,6 @@
-# All blobs from a32xx-user 12 SP1A.210812.016 A325FXXU2BVD6 release-keys, unless pinned
+# Common proprietary files - from a32xx-user 12 SP1A.210812.016 A325FXXU2BVD6, unless pinned
 
 # APU
-system_ext/lib/libapuwarehmp.mtk.so
-system_ext/lib/libapuwareutils.mtk.so
-system_ext/lib/libapuwareutils_v2.mtk.so
-system_ext/lib/libapuwarexrp.mtk.so
-system_ext/lib/libapuwarexrp_v2.mtk.so
-system_ext/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so
-system_ext/lib/vendor.mediatek.hardware.apuware.apusys@2.0.so
-system_ext/lib/vendor.mediatek.hardware.apuware.apusys@2.1.so
-system_ext/lib/vendor.mediatek.hardware.apuware.hmp@1.0.so
-system_ext/lib/vendor.mediatek.hardware.apuware.utils@1.0.so
-system_ext/lib/vendor.mediatek.hardware.apuware.utils@2.0.so
-system_ext/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so
-system_ext/lib/vendor.mediatek.hardware.apuware.xrp@2.0.so
-system_ext/lib64/libapuwarehmp.mtk.so
-system_ext/lib64/libapuwareutils.mtk.so
-system_ext/lib64/libapuwareutils_v2.mtk.so
-system_ext/lib64/libapuwarexrp.mtk.so
-system_ext/lib64/libapuwarexrp_v2.mtk.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
 vendor/lib/libapusys.so
 vendor/lib/libapusys_edma.so
 vendor/lib/libapu_mdw.so
@@ -35,12 +9,6 @@ vendor/lib/libapusys_edma.so
 vendor/lib/libapu_mdw.so
 
 # Audio - Mediatek
-system_ext/lib/libaudiocompensationfilter.so
-system_ext/lib/libaudiotoolkit.so
-system_ext/lib/vendor.mediatek.hardware.audio@7.1.so
-system_ext/lib64/libaudiocompensationfilter.so
-system_ext/lib64/libaudiotoolkit.so
-system_ext/lib64/vendor.mediatek.hardware.audio@7.1.so
 vendor/bin/audiocmdservice_atci
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/aurisys_config.xml
@@ -103,6 +71,7 @@ vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 
 # Audio - Samsung
 vendor/etc/floating_feature.xml
+vendor/etc/SoundBoosterParam.txt
 vendor/lib/hw/audio.primary.mt6768.so
 vendor/lib/hw/audio.r_submix.mt6768.so
 vendor/lib/hw/audio.sec_primary.default.so
@@ -483,7 +452,7 @@ vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
 vendor/lib/libJpgEncPipe.so
 vendor/lib/libladder.so
-vendor/lib/libtflite_mtk.so
+vendor/lib/libhwscaler_camera.mtk.so
 vendor/lib/libgz_gp_client.so
 vendor/lib/libgz_uree.so
 vendor/lib/libmpbase.so
@@ -492,13 +461,13 @@ vendor/lib/libmtkcam_debugutils.so
 vendor/lib/libmtkcam_grallocutils.so
 vendor/lib/libmtkcam_stdutils.so
 vendor/lib/libmtkcam_ulog.so
+vendor/lib/libtflite_mtk.so
 vendor/lib/libudf.so
 vendor/lib/libvdis.uniplugin@1.0.so
 vendor/lib/libvdis_core.so
 vendor/lib/unihal_cutils@2.1.so
 vendor/lib/unihal_main@2.1.so
 vendor/lib/unihal_uniplugin@1.0.so
-vendor/lib64/hw/camera.mt6768.so
 vendor/lib64/hw/camera.unihal.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
@@ -573,6 +542,7 @@ vendor/lib64/libfeature_lmv.so
 vendor/lib64/libfeature_rss.so
 vendor/lib64/libgz_gp_client.so
 vendor/lib64/libgz_uree.so
+vendor/lib64/libhwscaler_camera.mtk.so
 vendor/lib64/libimageio.so
 vendor/lib64/libimageio_plat_drv.so
 vendor/lib64/libimageio_plat_pipe.so
@@ -833,6 +803,19 @@ vendor/lib64/libgpud.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libOpenCL.so
 
+# Kernel Modules
+vendor/lib/modules/bt_drv_connac1x.ko
+vendor/lib/modules/connfem.ko
+vendor/lib/modules/fmradio_drv_mt6631.ko
+vendor/lib/modules/fpsgo.ko
+vendor/lib/modules/gps_drv.ko
+vendor/lib/modules/met.ko
+vendor/lib/modules/trace_mmstat.ko
+vendor/lib/modules/udc_lib.ko
+vendor/lib/modules/wlan_drv_gen4m.ko
+vendor/lib/modules/wmt_chrdev_wifi.ko
+vendor/lib/modules/wmt_drv.ko
+
 # Keymaster
 vendor/lib/liburee_meta_drmkeyinstall.so
 vendor/lib64/libkmsetkey.so
@@ -854,15 +837,6 @@ vendor/lib64/libaalservice.so
 vendor/lib64/librgbwlightsensor.so
 
 # Mediatek
-system_ext/etc/permissions/system-ext-permissions-mediatek.xml
-system_ext/etc/custom.conf
-system_ext/lib/vendor.mediatek.hardware.nwk_opt@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
-system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
-system_ext/lib64/vendor.mediatek.hardware.log@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.meta@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service
 vendor/bin/dconfig
@@ -890,6 +864,7 @@ vendor/lib64/vendor.mediatek.hardware.log@1.0.so
 vendor/lib64/vendor.mediatek.hardware.meta@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
+vendor/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so
 
 # Media - Codec2
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
@@ -1133,6 +1108,8 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
 # RIL - Samsung
+vendor/bin/secril_config_svc
+vendor/bin/hw/rild
 vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/locale/plmn_delta_zh-rCN.bin
 vendor/etc/locale/plmn_delta_zh-rHK.bin
@@ -1185,6 +1162,7 @@ vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
 
 # Sensors
+vendor/etc/sensors/hals.conf
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.inputvirtual.so
 vendor/lib/sensors.sensorhub.so
@@ -1259,7 +1237,10 @@ vendor/lib64/libvpu5.so
 
 # WiFi
 vendor/bin/stp_dump3
+vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
+vendor/bin/wmt_loader
+vendor/bin/wpa_cli
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_mtk.rc
 vendor/etc/init/init.wlan_drv.rc
@@ -1267,8 +1248,11 @@ vendor/etc/init/init.wmt_drv.rc
 vendor/etc/wlan_common_rc
 vendor/etc/wlan_vendor_rc
 vendor/lib/libapmonitor_vendor.so
+vendor/lib/libwpa_client.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/libapmonitor_vendor.so
+vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
+vendor/lib64/libwpa_client.so
 vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 
@@ -1277,7 +1261,6 @@ vendor/bin/add.pb
 vendor/bin/AgentTest
 vendor/bin/chipinfo
 vendor/bin/dmc_core
-vendor/bin/factory
 vendor/bin/fsdbg_vendor
 vendor/bin/hw/macloader
 vendor/bin/hw/mfgloader
@@ -1301,7 +1284,6 @@ vendor/etc/beauty/settings.dat
 vendor/etc/btcon.json
 vendor/etc/cgroups.json
 vendor/etc/dpolicy
-vendor/etc/factory.ini
 vendor/etc/frc_forced_params.ini
 vendor/etc/hqm_device.xml
 vendor/etc/init/chipinfo_init.rc
@@ -1312,7 +1294,6 @@ vendor/etc/init/init.udc_lib.rc
 vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.sysfw.rc
 vendor/etc/init/networksetting.rc
-vendor/etc/init/pa_daemon_teegris.rc
 vendor/etc/init/tetheroffloadservice.rc
 vendor/etc/mercury.json
 vendor/etc/mtk_platform_codecs_config.xml
@@ -1325,7 +1306,6 @@ vendor/etc/power_app_cfg.xml
 vendor/etc/sec_audio_volume_curve.xml
 vendor/etc/SetMultiCal.bin
 vendor/etc/somxreg.conf
-vendor/etc/SoundBoosterParam.txt
 vendor/etc/str/str_preference_data.dat
 vendor/etc/throttle.sh
 vendor/etc/traceconfig.txt
@@ -1344,7 +1324,6 @@ vendor/lib/libface_landmark.arcsoft.so
 vendor/lib/libformatConverter.unifunc.so
 vendor/lib/libFrucSSMLib.so
 vendor/lib/libhqm_hwparam.so
-vendor/lib/libhwscaler_camera.mtk.so
 vendor/lib/libimgsensorca.so
 vendor/lib/libispcameraca.so
 vendor/lib/libmp3dec_mtk.so
@@ -1379,7 +1358,6 @@ vendor/lib64/libface_landmark.arcsoft.so
 vendor/lib64/libformatConverter.unifunc.so
 vendor/lib64/libheichal.so
 vendor/lib64/libhqm_hwparam.so
-vendor/lib64/libhwscaler_camera.mtk.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libispcameraca.so

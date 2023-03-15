@@ -258,28 +258,20 @@ PRODUCT_PACKAGES += \
     secril_config_svc
 
 # Rootdir
-PRODUCT_PACKAGES += \
-    init.insmod.sh
-
-PRODUCT_PACKAGES += \
-    fstab.mt6768 \
-    fstab.mt6769t \
-    fstab.ramdisk
-
-PRODUCT_PACKAGES += \
-    init.ago.rc \
-    init.cgroup.rc \
-    init.modem.rc \
-    init.mt6768.rc \
-    init.mt6768.usb.rc \
-    init.mt6769t.rc \
-    init.project.rc \
-    init.recovery.mt6768.rc \
-    init.recovery.mt6769t.rc \
-    init.recovery.samsung.rc
-
-PRODUCT_PACKAGES += \
-    ueventd.mtk.rc
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/rootdir/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
+    $(COMMON_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6768 \
+    $(COMMON_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6768 \
+    $(COMMON_PATH)/rootdir/etc/init.ago.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ago.rc \
+    $(COMMON_PATH)/rootdir/etc/init.cgroup.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cgroup.rc \
+    $(COMMON_PATH)/rootdir/etc/init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.modem.rc \
+    $(COMMON_PATH)/rootdir/etc/init.mt6768.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mt6768.rc \
+    $(COMMON_PATH)/rootdir/etc/init.mt6768.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mt6768.usb.rc \
+    $(COMMON_PATH)/rootdir/etc/init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.project.rc \
+    $(COMMON_PATH)/rootdir/etc/init.recovery.mt6768.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6768.rc \
+    $(COMMON_PATH)/rootdir/etc/init.recovery.samsung.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.samsung.rc \
+    $(COMMON_PATH)/rootdir/etc/init.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.samsung.rc \
+    $(COMMON_PATH)/rootdir/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
 # RRO
 PRODUCT_PACKAGES += \
@@ -327,7 +319,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     android.hardware.wifi@1.3.vendor \
     android.hardware.wifi.supplicant@1.2.vendor \
-    android.hardware.wifi.hostapd@1.1.vendor
+    android.hardware.wifi.hostapd@1.1.vendor \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
