@@ -68,6 +68,9 @@ DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# SPL
+VENDOR_SECURITY_PATCH := 2022-12-01
+
 # VNDK
 BOARD_VNDK_VERSION := current
 
