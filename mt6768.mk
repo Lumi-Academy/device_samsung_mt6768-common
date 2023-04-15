@@ -10,6 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl
